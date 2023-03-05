@@ -1,0 +1,72 @@
+.body{
+    background-color: #220036;
+}
+
+:root{
+    --hue-aqua: aqua; 
+    --hue-dark: #060742;
+    --hue-box: #d790e0;
+    --borRad: 25px;
+    --boxShad: 0 0 10px 2px;
+}
+
+.main-box{
+    background-color:var(--hue-box);
+    max-width: 30%;
+    padding: 80px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: var(--borRad);
+    box-shadow: var(--boxShad);
+}
+
+#title{
+    background-color: var(--hue-dark);
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 60px;
+    border-radius: var(--borRad);
+    color: var(--hue-aqua);
+    max-width: 30%;
+    box-shadow: var(--boxShad);
+}
+
+.btn{
+    display:inline-block;
+    margin:15px;
+    padding: var(--borRad);
+    border-radius: var(--borRad);
+    border-color: var(--hue-dark);
+    background-color: var(--hue-aqua);
+    color: var(--hue-dark);
+    box-shadow: var(--boxShad);
+}
+
+.btn:hover{
+    border-radius: 10px;
+    background-color: var(--hue-dark);
+    color: var(--hue-aqua);
+    border-color: var(--hue-aqua);
+    box-shadow: var(--boxShad);
+}
+
+.timer-btn{
+    background-color: var(--hue-dark);
+    padding: 5px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: var(--borRad);
+    color: var(--hue-aqua);
+    max-width: 30%;
+    box-shadow: var(--boxShad); 
+}
+
+.timer-btn:hover{
+    border-radius: 10px;
+    background-color: var(--hue-aqua);
+    color: var(--hue-dark);
+    border-color: var(--hue-dark);
+    box-shadow: var(--boxShad);
+}
+
