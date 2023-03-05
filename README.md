@@ -1,5 +1,2 @@
-# pull-request-demo
+# quiz-w-timer
 
-```md
-Now, I am a demo for a Pull Request!
-```
