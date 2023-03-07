@@ -6,21 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/styles.css">
     <script src="./assets/script.js" defer></script>
+    <script src="./assets/end.js" defer></script>
     <title>QUIZ FOR FUN!</title>
 </head>
 <body class="body">
-<div class="main-box">
-    <div id="title"><h3 >QUIZ FOR FUN!</h3></div>
-<button id="btn1" class="btn">Button 1</button>
-<button id="btn2" class="btn">Button 2</button>
-<button id="btn3" class="btn">Button 3</button>
-<button id="btn4" class="btn">Button 4</button>
+    <div class="main-box">
+        <div id="title"><h3 >QUIZ FOR FUN!</h3></div> 
 
-    <div class="timer-btn">
-        <h3>TIMER</h3>
+<div id="hud">
+<div class="hud-prefix">Score
+<h1 class="hud-main-text" id="score">0</h1>
+</div>
+        
+<div class="hud-prefix" id="main">Timer
+<h1  id="time">30</h1></div>
+</div>
+   
+<div class="container"> 
+<div id="game">
+    <h2 id="question">What is the answer to this questions?</h2>
+    <div class="choice-container">
+        <p class="choice-prefix">A</p>
+    <button class="choice-text" data-number="1">Button 1</button>
+    </div>
+
+    <div class="choice-container">
+        <p class="choice-prefix">B</p>
+    <button class="choice-text" data-number="2">Button 2</button>
+    </div>
+
+    <div class="choice-container">
+        <p class="choice-prefix">C</p>
+    <button class="choice-text" data-number="3">Button 3</button>
+    </div>
+    
+    <div class="choice-container">
+        <p class="choice-prefix">D</p>
+    <button class="choice-text" data-number="4">Button 4</button>
     </div>
 </div>
+</div>
 
-    
 </body>
 </html>
