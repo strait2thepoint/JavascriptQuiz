@@ -10,10 +10,10 @@ The repo can be found at: git@github.com:strait2thepoint/JavascriptQuiz.git
 
 Usage
 ![Strait2thePointJavascriptQuiz](./assets/images/Screenshot%202023-03-06%20214526.png)
-![Strait2thePointJavascriptQuiz](./assets/images/Screenshot%202023-03-06%20214537.png)
 ![Strait2thePointJavascriptQuiz](./assets/images/Screenshot%202023-03-06%20214548.png)
 ![Strait2thePointJavascriptQuiz](./assets/images/Screenshot%202023-03-06%20214555.png)
 ![Strait2thePointJavascriptQuiz](./assets/images/Screenshot%202023-03-06%20214602.png)
+![Strait2thePointJavascriptQuiz](./assets/images/Screenshot%202023-03-06%20214537.png)
 
 Credits:
 Websites consulted during the making of this ap:
