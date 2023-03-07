@@ -146,6 +146,3 @@ function setTime() {
 }
 
 setTime();
-
-
-//this is like an onion with layers.  there is a function inside of a function

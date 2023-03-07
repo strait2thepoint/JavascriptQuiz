@@ -7,11 +7,13 @@ const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 const MAX_HIGH_SCORES = 50;
 
+//this sets the most recent score into the final score box
 finalScore.innerText = mostRecentScore;
 
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value;
 });
+
 
 saveHighScore = (e) => {
     e.preventDefault();
